@@ -1,0 +1,158 @@
+{
+  "Insert 'use strict' Statement": {
+    "prefix": "us",
+    "body": [
+      "\"use strict\";"
+    ],
+    "description": "Insert \"use strict\" Statement"
+  },
+  "Const Variable": {
+    "prefix": "cv",
+    "body": [
+      "const ${1:name}: ${2:type} = ${0};"
+    ],
+    "description": "Const"
+  },
+  "Let Variable": {
+    "prefix": "lv",
+    "body": [
+      "let ${1:name}: ${2:type} = ${0};"
+    ],
+    "description": "Let Variable"
+  },
+  "Console info": {
+    "prefix": "cin",
+    "body": [
+      "console.info(${0});"
+    ],
+    "description": "Info output to console"
+  },
+  "Console log": {
+    "prefix": "log",
+    "body": [
+      "console.log(${0});"
+    ],
+    "description": "Log output to console"
+  },
+  "Named Function": {
+    "prefix": "fun",
+    "body": [
+      "function ${1:name}(${2:arg}:${3:type}):${4:void} {",
+      "  ${0}",
+      "}"
+    ],
+    "description": "Named Function"
+  },
+  "Const Variable Function": {
+    "prefix": "caf",
+    "body": [
+      "const ${1:fn} = (${2:arg}:${3:type}):${4:void} => {",
+      "  ${0}",
+      "}"
+    ],
+    "description": "Const Variable Function"
+  },
+  "ES Export": {
+    "prefix": "exp",
+    "body": [
+      "export ${0:module};"
+    ],
+    "description": "ES Export"
+  },
+  "ES Export All": {
+    "prefix": "expa",
+    "body": [
+      "export * from ${0:module};"
+    ],
+    "description": "ES Export All"
+  },
+  "ES Export Default As": {
+    "prefix": "expas",
+    "body": [
+      "export { default as ${1} } from \"${0}\";"
+    ],
+    "description": "ES Export Default As"
+  },
+  "ES Export Default": {
+    "prefix": "expd",
+    "body": [
+      "export default ${0};"
+    ],
+    "description": "ES Export Default"
+  },
+  "ES Export Const": {
+    "prefix": "expc",
+    "body": [
+      "export const ${1} = ${0};"
+    ],
+    "description": "ES Export Const"
+  },
+  "ES Export Function": {
+    "prefix": "expf",
+    "body": [
+      "export function ${1:name}(${2:args}) {",
+      "\t${0}",
+      "}"
+    ],
+    "description": "ES Export Function"
+  },
+  "ES Export Class": {
+    "prefix": "expcl",
+    "body": [
+      "export class ${1:name} {",
+      "\t${0}",
+      "};"
+    ],
+    "description": "ES Export class"
+  },
+  "ES Export Default Function": {
+    "prefix": "expdf",
+    "body": [
+      "export default function ${1:name}(${2:args}) {",
+      "\t${0}",
+      "}"
+    ],
+    "description": "ES Export Default Function"
+  },
+  "ES Export Arrow Function": {
+    "prefix": "expaf",
+    "body": [
+      "export const ${1:name} = (${2:args}) => {",
+      "\t${0}",
+      "}"
+    ],
+    "description": "ES Export Arrow Function"
+  },
+  "ES Import External Module": {
+    "prefix": "imp",
+    "body": [
+      "import ${0} from \"${1:module}\";"
+    ],
+    "description": "ES Import"
+  },
+  "ES Import Module": {
+    "prefix": "impo",
+    "body": [
+      "import {${0}} from \"${1:module}\";"
+    ],
+    "description": "ES Destruction Import"
+  },
+  "Unit Test describe": {
+    "prefix": "desc",
+    "body": [
+      "describe('${1:test}', () => {",
+      "  ${2}",
+      "})"
+    ],
+    "description": "Unit Test describe"
+  },
+  "Unit Test case": {
+    "prefix": "it",
+    "body": [
+      "it('${1:happy path}', () => {",
+      "  expect(${2}).toBe(${3});",
+      "})"
+    ],
+    "description": "Unit Test case"
+  }
+}

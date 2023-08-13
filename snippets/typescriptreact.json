@@ -1,0 +1,27 @@
+{
+  "Const Variable": {
+    "prefix": "cv",
+    "body": ["const ${1:name}: ${2:type} = ${0};"],
+    "description": "Const"
+  },
+  "Let Variable": {
+    "prefix": "lv",
+    "body": ["let ${1:name}: ${2:type} = ${0};"],
+    "description": "Let Variable"
+  },
+  "Insert 'use strict' Statement": {
+    "prefix": "us",
+    "body": ["\"use strict\";"],
+    "description": "Insert 'use strict' Statement"
+  },
+  "Console info": {
+    "prefix": "cin",
+    "body": ["console.info(${0});"],
+    "description": "Info output to console"
+  },
+  "Console log": {
+    "prefix": "log",
+    "body": ["console.log(${0});"],
+    "description": "Log output to console"
+  }
+}

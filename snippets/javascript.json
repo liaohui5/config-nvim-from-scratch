@@ -1,0 +1,196 @@
+{
+  "Const Variable": {
+    "prefix": "cv",
+    "body": [
+      "const ${1:name} = ${0};"
+    ],
+    "description": "Const"
+  },
+  "Let Variable": {
+    "prefix": "lv",
+    "body": [
+      "let ${1:name} = ${0};"
+    ],
+    "description": "Let Variable"
+  },
+  "Named function": {
+    "prefix": "fun",
+    "body": [
+      "function ${1:name}(${2}){",
+      "${0}",
+      "}"
+    ],
+    "description": "Named function"
+  },
+  "Arrow Function": {
+    "prefix": "afun",
+    "body": [
+      "(${1}) => {${0}}"
+    ],
+    "description": "Arrow Function"
+  },
+  "Const Arrow Function": {
+    "prefix": "caf",
+    "body": [
+      "const ${1:name} = (${2}) => {${0}};"
+    ],
+    "description": "Const Arrow Function"
+  },
+  "IIFE": {
+    "prefix": "iife",
+    "body": [
+      ";((${1}) => {",
+      "\t${0}",
+      "})();"
+    ],
+    "description": "IIFE"
+  },
+  "ES Export": {
+    "prefix": "exp",
+    "body": [
+      "export ${0:module};"
+    ],
+    "description": "ES Export"
+  },
+  "ES Export All": {
+    "prefix": "expa",
+    "body": [
+      "export * from ${0:module};"
+    ],
+    "description": "ES Export All"
+  },
+  "ES Export Default As": {
+    "prefix": "expas",
+    "body": [
+      "export { default as ${1} } from \"${0}\";"
+    ],
+    "description": "ES Export Default As"
+  },
+  "ES Export Default": {
+    "prefix": "expd",
+    "body": [
+      "export default ${0};"
+    ],
+    "description": "ES Export Default"
+  },
+  "ES Export Const": {
+    "prefix": "expc",
+    "body": [
+      "export const ${1} = ${0};"
+    ],
+    "description": "ES Export Const"
+  },
+  "ES Export Function": {
+    "prefix": "expf",
+    "body": [
+      "export function ${1:name}(${2:args}) {",
+      "\t${0}",
+      "};"
+    ],
+    "description": "ES Export Function"
+  },
+  "ES Export Class": {
+    "prefix": "expcl",
+    "body": [
+      "export class ${1:name} {",
+      "\t${0}",
+      "};"
+    ],
+    "description": "ES Export class"
+  },
+  "ES Export Default Function": {
+    "prefix": "expdf",
+    "body": [
+      "export default function ${1:name}(${2:args}) {",
+      "\t${0}",
+      "};"
+    ],
+    "description": "ES Export Default Function"
+  },
+  "ES Export Arrow Function": {
+    "prefix": "expaf",
+    "body": [
+      "export const ${1:name} = (${2:args}) => {",
+      "\t${0}",
+      "};"
+    ],
+    "description": "ES Export Arrow Function"
+  },
+  "ES Import External Module": {
+    "prefix": "imp",
+    "body": [
+      "import ${0} from \"${1:module}\";"
+    ],
+    "description": "ES Import"
+  },
+  "ES Import Module": {
+    "prefix": "impo",
+    "body": [
+      "import {${0}} from \"${1:module}\";"
+    ],
+    "description": "ES Import"
+  },
+  "CJS Module Exports": {
+    "prefix": "mod",
+    "body": [
+      "module.exports = ${0};"
+    ],
+    "description": "CJS Module Exports"
+  },
+  "CJS Require": {
+    "prefix": "req",
+    "body": [
+      "require(${0});"
+    ],
+    "description": "CJS Require"
+  },
+  "Typeof": {
+    "prefix": "typeof",
+    "body": [
+      "typeof ${0}"
+    ],
+    "description": "Typeof"
+  },
+  "Instanceof": {
+    "prefix": "instanceof",
+    "body": [
+      "${1} instanceof ${0:Object}"
+    ],
+    "description": "Instanceof"
+  },
+  "Get Built-in Type": {
+    "prefix": "objcall",
+    "body": [
+      "Object.prototype.toString.call(${0})"
+    ],
+    "description": "Get Built-in Type"
+  },
+  "Insert \"use strict\" Statement": {
+    "prefix": "us",
+    "body": [
+      "\"use strict\";"
+    ],
+    "description": "Insert \"use strict\" Statement"
+  },
+  "Console info": {
+    "prefix": "cin",
+    "body": [
+      "console.info(${0});"
+    ],
+    "description": "Info output to console"
+  },
+  "Console log": {
+    "prefix": "log",
+    "body": [
+      "console.log(${0});"
+    ],
+    "description": "Log output to console"
+  },
+  "Promise Executor": {
+    "prefix": "resrej",
+    "body": [
+      "(resolve, reject) => {${0}}"
+    ],
+    "description": "Promise executor callback function"
+  }
+}

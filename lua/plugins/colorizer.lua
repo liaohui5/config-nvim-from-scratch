@@ -1,0 +1,14 @@
+-- ╭──────────────────────────────────────────────────────────────────────────────╮
+-- │ 颜色代码直接显示                                                             │
+-- │ docs: https://github.com/norcalli/nvim-colorizer.lua                         │
+-- ╰──────────────────────────────────────────────────────────────────────────────╯
+-- {
+--   -- 直接显示16进制颜色代码对应的颜色
+--   "norcalli/nvim-colorizer.lua",
+--   event = "VeryLazy",
+--   cond = should_load,
+--   config = function()
+--     require("plugins.colorizer")
+--   end,
+-- },
+require("colorizer").setup()

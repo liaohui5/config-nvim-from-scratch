@@ -1,0 +1,28 @@
+-- 自动提示的字段类型图标
+return {
+  Text = "󰊄",
+  Method = "󰊕",
+  Function = "󰊕",
+  Constructor = "",
+  Field = "",
+  Variable = "",
+  Class = "",
+  Interface = "",
+  Module = "",
+  Property = "",
+  Value = "󰕷",
+  Enum = "",
+  Keyword = "󰌆",
+  Snippet = "",
+  Color = "",
+  File = "",
+  Reference = "",
+  Folder = "",
+  EnumMember = "",
+  Constant = "",
+  Struct = "",
+  Event = "",
+  Operator = "",
+  TypeParameter = "",
+  Codeium = "", -- AI 自动补全
+}

@@ -1,0 +1,445 @@
+{
+  "Vue Single File Component with SASS": {
+    "prefix": "vbase",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script>",
+      "\texport default {",
+      "\t\t${0}",
+      "\t}",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File with SCSS"
+  },
+  "Vue Single File Component with LESS": {
+    "prefix": "vbase-less",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script>",
+      "\texport default {",
+      "\t\t${0}",
+      "\t}",
+      "</script>",
+      "",
+      "<style lang=\"less\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File with PostCSS"
+  },
+  "Vue Single File Component with postcss": {
+    "prefix": "vbase-pcss",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script>",
+      "\texport default {",
+      "\t\t${0}",
+      "\t}",
+      "</script>",
+      "",
+      "<style lang=\"postcss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File with PostCSS"
+  },
+  "Vue Single File Component with Css": {
+    "prefix": "vbase-css",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script>",
+      "\texport default {",
+      "\t\t${0}",
+      "\t}",
+      "</script>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File with CSS"
+  },
+  "Vue Single File Component with Stylus": {
+    "prefix": "vbase-styl",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script>",
+      "\texport default {",
+      "\t\t${0}",
+      "\t}",
+      "</script>",
+      "",
+      "<style lang=\"stylus\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File with Stylus"
+  },
+  "Vue Single File Component with Typescript": {
+    "prefix": "vbase-ts",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "\timport Vue from 'vue'",
+      "",
+      "\texport default Vue.extend({",
+      "\t\t${0}",
+      "\t})",
+      "</script>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File with Typescript"
+  },
+  "Vue Single File Component with No Style": {
+    "prefix": "vbase-ns",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script>",
+      "\texport default {",
+      "\t\t${0}",
+      "\t}",
+      "</script>"
+    ],
+    "description": "Base for Vue File with no styles"
+  },
+  "Vue Single File Component Composition API": {
+    "prefix": "vbase3",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "\tsetup () {",
+      "\t\t${0}",
+      "",
+      "\t\treturn {}",
+      "\t}",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Composition API with SCSS"
+  },
+  "Vue Single File Component Setup Composition API": {
+    "prefix": "vbase3-setup",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script setup>",
+      "",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Setup Composition API with SCSS"
+  },
+  "Vue Single File Component Composition API with Typescript": {
+    "prefix": "vbase3-ts",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tsetup () {",
+      "\t\t${0}\n",
+      "\t\treturn {}",
+      "\t}",
+      "})",
+      "</script>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Composition API - Typescript"
+  },
+  "Vue Single File Component Setup Composition API with Typescript": {
+    "prefix": "vbase3-ts-setup",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Setup Composition API - Typescript"
+  },
+  "Vue Single File Component with Class based Typescript format": {
+    "prefix": "vbase-ts-class",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "\timport { Component, Vue } from 'vue-property-decorator';",
+      "",
+      "\t@Component",
+      "\texport default class ${0} extends Vue {",
+      "\t\t",
+      "\t}",
+      "</script>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File with Class based Typescript format"
+  },
+  "Const Variable": {
+    "prefix": "cv",
+    "body": [
+      "const ${1:name} = ${0};"
+    ],
+    "description": "Const"
+  },
+  "Let Variable": {
+    "prefix": "lv",
+    "body": [
+      "let ${1:name} = ${0};"
+    ],
+    "description": "Let Variable"
+  },
+  "Named function": {
+    "prefix": "fun",
+    "body": [
+      "function ${1:name}(${2}){",
+      "${0}",
+      "}"
+    ],
+    "description": "Named function"
+  },
+  "Arrow Function": {
+    "prefix": "afun",
+    "body": [
+      "(${1}) => {${0}}"
+    ],
+    "description": "Arrow Function"
+  },
+  "Const Arrow Function": {
+    "prefix": "caf",
+    "body": [
+      "const ${1:name} = (${2}) => {${0}};"
+    ],
+    "description": "Const Arrow Function"
+  },
+  "IIFE": {
+    "prefix": "iife",
+    "body": [
+      ";((${1}) => {",
+      "\t${0}",
+      "})();"
+    ],
+    "description": "IIFE"
+  },
+  "ES Export": {
+    "prefix": "exp",
+    "body": [
+      "export ${0:module};"
+    ],
+    "description": "ES Export"
+  },
+  "ES Export All": {
+    "prefix": "expa",
+    "body": [
+      "export * from ${0:module};"
+    ],
+    "description": "ES Export All"
+  },
+  "ES Export Default As": {
+    "prefix": "expas",
+    "body": [
+      "export { default as ${1} } from \"${0}\";"
+    ],
+    "description": "ES Export Default As"
+  },
+  "ES Export Default": {
+    "prefix": "expd",
+    "body": [
+      "export default ${0};"
+    ],
+    "description": "ES Export Default"
+  },
+  "ES Export Const": {
+    "prefix": "expc",
+    "body": [
+      "export const ${1} = ${0};"
+    ],
+    "description": "ES Export Const"
+  },
+  "ES Export Function": {
+    "prefix": "expf",
+    "body": [
+      "export function ${1:name}(${2:args}) {",
+      "\t${0}",
+      "};"
+    ],
+    "description": "ES Export Function"
+  },
+  "ES Export Default Function": {
+    "prefix": "expdf",
+    "body": [
+      "export default function ${1:name}(${2:args}) {",
+      "\t${0}",
+      "};"
+    ],
+    "description": "ES Export Default Function"
+  },
+  "ES Export Arrow Function": {
+    "prefix": "expaf",
+    "body": [
+      "export const ${1:name} = (${2:args}) => {",
+      "\t${0}",
+      "};"
+    ],
+    "description": "ES Export Arrow Function"
+  },
+  "ES Import External Module": {
+    "prefix": "imp",
+    "body": [
+      "import ${0} from \"${1:module}\";"
+    ],
+    "description": "ES Import"
+  },
+  "ES Import Module": {
+    "prefix": "impo",
+    "body": [
+      "import {${0}} from \"${1:module}\";"
+    ],
+    "description": "ES Import"
+  },
+  "CJS Module Exports": {
+    "prefix": "mod",
+    "body": [
+      "module.exports = ${0};"
+    ],
+    "description": "CJS Module Exports"
+  },
+  "CJS Require": {
+    "prefix": "req",
+    "body": [
+      "require(${0});"
+    ],
+    "description": "CJS Require"
+  },
+  "Typeof": {
+    "prefix": "typeof",
+    "body": [
+      "typeof ${0}"
+    ],
+    "description": "Typeof"
+  },
+  "Instanceof": {
+    "prefix": "instanceof",
+    "body": [
+      "${1} instanceof ${0:Object}"
+    ],
+    "description": "Instanceof"
+  },
+  "Get Built-in Type": {
+    "prefix": "objcall",
+    "body": [
+      "Object.prototype.toString.call(${0})"
+    ],
+    "description": "Get Built-in Type"
+  },
+  "Insert \"use strict\" Statement": {
+    "prefix": "us",
+    "body": [
+      "\"use strict\";"
+    ],
+    "description": "Insert \"use strict\" Statement"
+  },
+  "Console info": {
+    "prefix": "cin",
+    "body": [
+      "console.info(${0});"
+    ],
+    "description": "Info output to console"
+  },
+  "Console log": {
+    "prefix": "log",
+    "body": [
+      "console.log(${0});"
+    ],
+    "description": "Log output to console"
+  },
+  "Promise Executor": {
+    "prefix": "resrej",
+    "body": [
+      "(resolve, reject) => {${0}}"
+    ],
+    "description": "Promise executor callback function"
+  }
+}
